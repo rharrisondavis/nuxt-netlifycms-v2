@@ -24,7 +24,24 @@ export default {
       { hid: 'description', name: 'description', content: pkg.description }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: '/css/ajax-loader.gif' },
+      { rel: 'stylesheet', href: '/css/animate.css' },
+      { rel: 'stylesheet', href: '/css/aos.css' },
+      { rel: 'stylesheet', href: '/css/bootstrap-datepicker.css' },
+      { rel: 'stylesheet', href: '/css/bootstrap.min.css' },
+      { rel: 'stylesheet', href: '/css/flaticon.css' },
+      { rel: 'stylesheet', href: '/css/icomoon.css' },
+      { rel: 'stylesheet', href: '/css/ionicons.min.css' },
+      { rel: 'stylesheet', href: '/css/jquery.timepicker.css' },
+      { rel: 'stylesheet', href: '/css/magnific-popup.css' },
+      { rel: 'stylesheet', href: '/css/open-iconic-bootstrap.min.css' },
+      { rel: 'stylesheet', href: '/css/owl.carousel.min.css' },
+      { rel: 'stylesheet', href: '/css/owl.theme.default.min.css' },
+      { rel: 'stylesheet', href: '/css/style.css' },
+      { rel: 'stylesheet', href: '/css/mixins/_text-hide.css' },
+      { rel: 'stylesheet', href: '/css/.DS_Store' },
+      { rel: 'stylesheet', href: '/css/bootstrap-reboot.css' },
     ]
   },
 
