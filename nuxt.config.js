@@ -35,7 +35,8 @@ export default {
       { rel: 'stylesheet', href: '/css/ionicons.min.css' },
       { rel: 'stylesheet', href: '/css/jquery.timepicker.css' },
       { rel: 'stylesheet', href: '/css/magnific-popup.css' },
-      { rel: 'stylesheet', href: '/css/open-iconic-bootstrap.min.css' },
+// All of the JS files... what should the rel: be?
+      { rel: 'preload', href: '/css/open-iconic-bootstrap.min.css' },
       { rel: 'stylesheet', href: '/css/owl.carousel.min.css' },
       { rel: 'stylesheet', href: '/css/owl.theme.default.min.css' },
       { rel: 'stylesheet', href: '/css/style.css' },
@@ -43,6 +44,20 @@ export default {
       { rel: 'stylesheet', href: '/css/.DS_Store' },
       { rel: 'stylesheet', href: '/css/bootstrap-reboot.css' },
       { rel: 'stylesheet', href: '/js/bootstrap.min.js' },
+      { rel: 'stylesheet', href: '/js/google-map.js' },
+      { rel: 'stylesheet', href: '/js/jquery-3.2.1.min.js' },
+      { rel: 'stylesheet', href: '/js/jquery-migrate-3.0.1.min.js' },
+      { rel: 'stylesheet', href: '/js/jquery.animateNumber.min.js' },
+      { rel: 'stylesheet', href: '/js/jquery.easing.1.3.js' },
+      { rel: 'stylesheet', href: '/js/jquery.magnific-popup.min.js' },
+      { rel: 'stylesheet', href: '/js/jquery.min.js' },
+      { rel: 'stylesheet', href: '/js/jquery.stellar.min.js' },
+      { rel: 'stylesheet', href: '/js/jquery.waypoints.min.js' },
+      { rel: 'stylesheet', href: '/js/main.js' },
+      { rel: 'stylesheet', href: '/js/owl.carousel.min.js' },
+      { rel: 'stylesheet', href: '/js/popper.min.js' },
+      { rel: 'stylesheet', href: '/js/scrollax.min.js' },
+
     ]
   },
 

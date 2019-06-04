@@ -8,14 +8,20 @@
       <h2 class="posts-list-title">Posts</h2>
       <p class="post-link" v-for="post in blogPosts"><n-link :to="post._path">{{post.title}}</n-link></p>
     </div>
+
+    <div class="Pillars">
+      <Pillars/>
+    </div>
+
   </div>
 </template>
 
 <script>
 import Logo from '~/components/Logo.vue'
+import Pillars from '~/components/Pillars.vue'
 export default {
   components: {
-    Logo
+    Logo, Pillars
   },
   computed: {
     blogPosts() {
@@ -29,6 +35,7 @@ export default {
 </script>
 
 <style lang="css" scoped>
+
 .posts-list {
   width: 100%;
   background-color: whitesmoke;
