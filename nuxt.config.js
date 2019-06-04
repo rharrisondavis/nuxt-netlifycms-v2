@@ -42,6 +42,7 @@ export default {
       { rel: 'stylesheet', href: '/css/mixins/_text-hide.css' },
       { rel: 'stylesheet', href: '/css/.DS_Store' },
       { rel: 'stylesheet', href: '/css/bootstrap-reboot.css' },
+      { rel: 'stylesheet', href: '/js/bootstrap.min.js' },
     ]
   },
 

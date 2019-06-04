@@ -1,11 +1,9 @@
 <template>
   <div class="layout">
-    <div class="header">
       <Thenavbar/>
-      <!-- This link is an n-link because it links to another Nuxt route -->
-      <n-link class="logo" to="/"><logo/></n-link>
-    </div>
+      <Theheader/>
     <nuxt class="content" />
+
     <div class="footer">
      <Thefooter/>
     </div>
@@ -13,52 +11,22 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import Theheader from '~/components/Theheader.vue'
 import Thenavbar from '~/components/Thenavbar.vue'
 import Thefooter from '~/components/Thefooter.vue'
 export default {
   components: {
-    Logo, Thenavbar,Thefooter,
+    Thenavbar,Thefooter,Theheader,
   }
 }
 </script>
 
 <style>
-.layout {
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  height: 100vh;
-  padding: 40px 20px 10px 20px;
-}
 
-.header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-}
+
 .content {
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-.footer {
-  background-color: whitesmoke;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.footer > * {
-  padding: 20px;
-}
-
-.logo {
-  display: block;
-  margin: 0;
-  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 html {
